@@ -1,6 +1,23 @@
-"main": "server.js",
-"scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"  //optional
+{
+  "name": "tdx-app-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ivl-Nunez/tdx-app-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ivl-Nunez/tdx-app-api/issues"
+  },
+  "homepage": "https://github.com/Ivl-Nunez/tdx-app-api#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
